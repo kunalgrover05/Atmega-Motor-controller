@@ -6,11 +6,12 @@ Motor controller module made using Atmega168/328 and reading encoder counts usin
 
 Modes:
 ------
-*Velocity control-Encoder mode  
-*Velocity control-Voltage mode  
-*Position control-Encoder mode  
+* Velocity control-Encoder mode  
+* Velocity control-Voltage mode  
+* Position control-Encoder mode  
 
 
 Communication protocols:  
-I2C / SPI to control  
-UART to communicate with MSP
+------------------------
+* I2C / SPI to control  
+* UART to communicate with MSP
