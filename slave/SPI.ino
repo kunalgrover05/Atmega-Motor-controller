@@ -1,6 +1,6 @@
 // Contains all functions that handle SPI communication
 // i.e. Communication with MASTER
-#ifdef SPICOMM
+
 void spi_init() {
   // have to send on master in, *slave out*
   pinMode(MISO, OUTPUT);
@@ -51,5 +51,4 @@ ISR (SPI_STC_vect) {                                  // interrupt for SPI
          }*/
     break;
   }
-}  
-#endif
+}

@@ -31,6 +31,7 @@ ARRAY[POSITION]
 
 DIRECTION :  2-Forward
              1-Backward
+             0-Stop
 
 
 

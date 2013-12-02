@@ -27,7 +27,7 @@ int voltage_to_pwm(int a) {
 }
 
 int pwm_to_voltage(int a) {
-  return ( a / 1023.0 * MAX_VOLTAGE_BATTERY );
+  return ( a / 1023 * MAX_VOLTAGE_BATTERY );
 }
 
 int adc_to_voltage(int a) {
@@ -37,3 +37,4 @@ int adc_to_voltage(int a) {
 int adc_to_pwm(int a) {
   return  ((float)a / Vref * 1023.0 )  ;
 }
+ 

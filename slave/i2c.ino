@@ -1,6 +1,5 @@
-#ifdef I2CCOMM
-void i2c_init() {
-   Wire.begin (MY_ADD);
+void i2c_init() { 
+  Wire.begin (0x10);
    Wire.onReceive (receiveEvent);
    Wire.onRequest (requestEvent);
 }
@@ -42,4 +41,3 @@ void requestEvent() {
              break;
   }
 }
-#endif
